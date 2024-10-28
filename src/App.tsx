@@ -1,11 +1,8 @@
-import './App.css'
-import Header from "./components/Header/Header.tsx";
+import "./App.css";
+import Layout from "./components/Layout/Layout.tsx";
 
 function App() {
-
-  return (
-    <Header />
-  )
+  return <Layout />;
 }
 
-export default App
+export default App;
